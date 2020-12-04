@@ -18,7 +18,6 @@ function countCards() {
 }
 
 function displayForm(column) {
-  hideForm(column)
   hideLink(column)
   const form = document.createElement('div')
   form.dataset.id = `form-${column}`
