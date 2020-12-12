@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "position": 1,
+    "title": "To Do",
+    "cards": [
+      {
+        "id": 1,
+        "content": "Test",
+        "position": 1
+      },
+      {
+        "id": 2,
+        "content": "Testtest",
+        "position": 3
+      },
+      {
+        "id": 3,
+        "content": "Ыыыыы",
+        "position": 2
+      },
+      {
+        "id": 4,
+        "content": "Testtest...",
+        "position": 4
+      },
+      {
+        "id": 5,
+        "content": "Ыыыыы...",
+        "position": 6
+      },
+      {
+        "id": 6,
+        "content": "Ыыыыы!",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "position": 2,
+    "title": "In progress",
+    "cards": [
+      {
+        "id": 7,
+        "content": "Testtest...",
+        "position": 4
+      },
+      {
+        "id": 8,
+        "content": "Ыыыыы...",
+        "position": 3
+      },
+      {
+        "id": 9,
+        "content": "Ыыыыы!",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "position": 3,
+    "title": "Done",
+    "cards": [
+      {
+        "id": 10,
+        "content": "Testtest...",
+        "position": 4
+      },
+      {
+        "id": 11,
+        "content": "Ыыыыы...",
+        "position": 3
+      },
+      {
+        "id": 12,
+        "content": "Ыыыыы!",
+        "position": 1
+      }
+    ]
+  }
+]
