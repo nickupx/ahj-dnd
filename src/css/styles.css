@@ -18,7 +18,7 @@ body {
   letter-spacing: 0.3px;
 }
 
-.card-column {
+.column {
   margin-right: 2em;
   width: 300px;
   box-sizing: border-box;
@@ -32,6 +32,7 @@ body {
   padding: 16px;
   border-radius: 6px;
   margin-bottom: 0.5em;
+  height: 4em;
 }
 
 .card-content {
@@ -50,6 +51,12 @@ body {
   cursor: pointer;
 }
 
+.add-link {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
 .add-container {
   margin-top: 1em;
   cursor: pointer;
@@ -59,8 +66,39 @@ body {
   color: blue;
 }
 
-.input-add  {
+.add-input  {
+  box-sizing: border-box;
   width: 100%;
-  height: 3em;
+  height: 4em;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  border: none;
+}
+
+.add-input:focus {
+  border: none;
+}
+
+.add-button {
+  box-sizing: border-box;
+  background-color: green;
+  color: #fff;
+  padding: 10px 16px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: none;
+}
+
+.shadow-active {
+  box-shadow: #333;
+}
+
+.add-form {
+  display: none;
+}
+
+.dragged {
+  cursor: move;
 }
 
